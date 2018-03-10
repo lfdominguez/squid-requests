@@ -34,8 +34,7 @@ Net::HTTP.start('127.0.0.1', 3128) do |http|
                 connection: match[0],
                 ip: match[1],
                 username: match[5],
-                uri: match_url,
-                full_uri: match[2]
+                uri: match_url
             },
             timestamp: date.to_time.to_i
         }
