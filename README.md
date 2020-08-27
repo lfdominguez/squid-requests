@@ -8,3 +8,9 @@ This project is for people that need save into InfluxDB the information extracte
 ```
 gem install influxdb
 ```
+
+## Create retention policy
+
+```
+CREATE DATABASE "squid" WITH DURATION 4w NAME "realtime"
+```
